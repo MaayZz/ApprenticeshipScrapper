@@ -1,0 +1,29 @@
+# Fichiers de l'environnement virtuel et dépendances
+venv/
+__pycache__/
+*.pyc
+
+# Base de données
+*.db
+*.sqlite
+alternance.db
+
+# Fichiers sensibles et configurations locales
+.env
+config.json # Si vous y stockez des secrets
+# Note: Si vous voulez que le modèle (sans les secrets) de config.json soit suivi,
+# vous pouvez le renommer en config.json.example et l'ajouter à Git.
+ 
+# Sorties de compilation (pour PyInstaller ou autres)
+dist/
+build/
+*.exe
+*.zip
+
+# Logs et journaux
+*.log
+
+# Fichiers temporaires des éditeurs de texte (Ex: VIM)
+*~
+
+
